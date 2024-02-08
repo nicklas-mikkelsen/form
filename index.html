@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-left">
+        <div class="header">
+            <img src="odin-lined.png">
+            <h1>Odin</h1>
+        </div>
+        <p class="credit">Photo by <u>Frankie Lopez</u> on <u>Unsplash</u></p>
+    </div>
+
+    <div class="container-right">
+        
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor natus, dignissimos expedita accusamus delectus accusantium officiis quos animi quis numquam quisquam sed optio magni voluptas non? Aliquid voluptate repellendus id!<br>Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+    
+    
+    
+        <form action="#" method="get">
+            <fieldset class="form">
+            <h1>Let's do this!</h1>
+            <section class="left">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" name="first-name" id="first-name" minlength="2" maxlength="12" required>
+
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" required>
+                
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"required>
+            </section>
+            <section class="right">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" name="last-name" id="last-name" minlength="2" maxlength="12" required>
+
+            
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone" required>
+
+            
+
+                <label for="password-confirm">CONFIRM PASSWORD</label>
+                <input type="password" name="password" id="password-confirm" required>
+            </section>
+            </fieldset>
+            <button type="submit">Create Account</button>
+        </form>
+
+        <p>Already have an account? <a href="#">Log in</a></p>
+       
+
+
+    
+    </div>
+</body>
+</html>
